@@ -6,9 +6,13 @@
 </head>
 <body>
   <div id="app">
-    <p>{{ message }}</p>
+    <form>
+      <label for="agree">同意する:</label>
+      <input type="checkbox" id="agree" v-model="agree" />
+    </form>
+    <div>回答: {{ agree }}</div>
   </div>
 <script src="https://cdn.jsdelivr.net/npm/vue@3.2.29/dist/vue.global.js"></script>
-<script src="js/bind_bool.js"></script>
+<script src="../js/model_check.js"></script>
 </body>
 </html>
