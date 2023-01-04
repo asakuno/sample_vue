@@ -1,7 +1,7 @@
 Vue.createApp ({
   data() {
     return {
-      holiday: ''
+      holiday: 'new'
     };
   },
   methods: {
